@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_55cbbff9a57a46b4afbc89df3422ecfe {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_55cbbff9a57a46b4afbc89df3422ecfe" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_55cbbff9a57a46b4afbc89df3422ecfe = L.map(
+        'map_55cbbff9a57a46b4afbc89df3422ecfe', {
+        center: [30.267153, -97.7430608],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_f1d41fe2d015458ab4326bea312d989c = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+    
+        var marker_6100e627aab34deab4a38851054136fc = L.marker(
+            [30.325241, -97.715974],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_7a469b62b96544959660c27afc14e19c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3976c4f267b74c1585bd5b315c5dd560 = $(`<div id="html_3976c4f267b74c1585bd5b315c5dd560" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/7/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_7a469b62b96544959660c27afc14e19c.setContent(html_3976c4f267b74c1585bd5b315c5dd560);
+            
+
+            marker_6100e627aab34deab4a38851054136fc.bindPopup(popup_7a469b62b96544959660c27afc14e19c)
+            ;
+
+            
+        
+    
+        var marker_c0ab33975a3d4907a3f06415819a8478 = L.marker(
+            [30.249133, -97.735957],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_7a7e5ecb02814e0f8082c06b8be41331 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3b07b7398a104588be8e832549300d08 = $(`<div id="html_3b07b7398a104588be8e832549300d08" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/11/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_7a7e5ecb02814e0f8082c06b8be41331.setContent(html_3b07b7398a104588be8e832549300d08);
+            
+
+            marker_c0ab33975a3d4907a3f06415819a8478.bindPopup(popup_7a7e5ecb02814e0f8082c06b8be41331)
+            ;
+
+            
+        
+    
+        var marker_b28e298e8d7046c9b5c3bc7044b15849 = L.marker(
+            [30.224767, -97.746064],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_b8d4ed73a6cd441db02f2a3eb988a3f3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bda5e871b4f849e19c5d6f1f9e3bdc12 = $(`<div id="html_bda5e871b4f849e19c5d6f1f9e3bdc12" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/13/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_b8d4ed73a6cd441db02f2a3eb988a3f3.setContent(html_bda5e871b4f849e19c5d6f1f9e3bdc12);
+            
+
+            marker_b28e298e8d7046c9b5c3bc7044b15849.bindPopup(popup_b8d4ed73a6cd441db02f2a3eb988a3f3)
+            ;
+
+            
+        
+    
+        var marker_8a24180cb9134f2792ba84fe8f2383b1 = L.marker(
+            [30.289167, -97.736837],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_ec053fb1ab3b4987a5b1208f27395c61 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_45cbd0c7f1d946d2845315254e2ecdbd = $(`<div id="html_45cbd0c7f1d946d2845315254e2ecdbd" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/13/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_ec053fb1ab3b4987a5b1208f27395c61.setContent(html_45cbd0c7f1d946d2845315254e2ecdbd);
+            
+
+            marker_8a24180cb9134f2792ba84fe8f2383b1.bindPopup(popup_ec053fb1ab3b4987a5b1208f27395c61)
+            ;
+
+            
+        
+    
+        var marker_d49e15a85b6a485c9e7970293bf92b93 = L.marker(
+            [30.2677, -97.73791800000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_c7d4bd34d33f494c84a9a24a89cb777e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_38a02615adeb47bd8ae1132100f35b83 = $(`<div id="html_38a02615adeb47bd8ae1132100f35b83" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/14/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_c7d4bd34d33f494c84a9a24a89cb777e.setContent(html_38a02615adeb47bd8ae1132100f35b83);
+            
+
+            marker_d49e15a85b6a485c9e7970293bf92b93.bindPopup(popup_c7d4bd34d33f494c84a9a24a89cb777e)
+            ;
+
+            
+        
+    
+        var marker_82e84ec667924eab98205968c4742b75 = L.marker(
+            [30.267184000000004, -97.746962],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_cc7f0ab26c784ba9abb8b35b7725c343 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_791294d752bb43768c9e42944a80f62d = $(`<div id="html_791294d752bb43768c9e42944a80f62d" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/16/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_cc7f0ab26c784ba9abb8b35b7725c343.setContent(html_791294d752bb43768c9e42944a80f62d);
+            
+
+            marker_82e84ec667924eab98205968c4742b75.bindPopup(popup_cc7f0ab26c784ba9abb8b35b7725c343)
+            ;
+
+            
+        
+    
+        var marker_3faec525847049ccb094290f13d62bfe = L.marker(
+            [30.263406, -97.717733],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_eff8998e1b6e494e93d8b717665078cc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ea15b265a9ba4e009503454703bb9766 = $(`<div id="html_ea15b265a9ba4e009503454703bb9766" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/27/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_eff8998e1b6e494e93d8b717665078cc.setContent(html_ea15b265a9ba4e009503454703bb9766);
+            
+
+            marker_3faec525847049ccb094290f13d62bfe.bindPopup(popup_eff8998e1b6e494e93d8b717665078cc)
+            ;
+
+            
+        
+    
+        var marker_0ae7923644d941d1beb84d2b2386211d = L.marker(
+            [30.270871999999997, -97.745593],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_d2fec61a8f784fbfaff6d3106c6d5968 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e84a40698ed04c7bbdf859b840580461 = $(`<div id="html_e84a40698ed04c7bbdf859b840580461" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/28/18 Problem Description: Fall Pri 2</div>`)[0];
+                popup_d2fec61a8f784fbfaff6d3106c6d5968.setContent(html_e84a40698ed04c7bbdf859b840580461);
+            
+
+            marker_0ae7923644d941d1beb84d2b2386211d.bindPopup(popup_d2fec61a8f784fbfaff6d3106c6d5968)
+            ;
+
+            
+        
+    
+        var marker_281b4332d93b4d7ba7e779737cfaafd1 = L.marker(
+            [30.271764, -97.737564],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_6e26aff3b3bb4345aa3ec28c40486e06 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b9ea639a0a584d70920d8761335eddf5 = $(`<div id="html_b9ea639a0a584d70920d8761335eddf5" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/28/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_6e26aff3b3bb4345aa3ec28c40486e06.setContent(html_b9ea639a0a584d70920d8761335eddf5);
+            
+
+            marker_281b4332d93b4d7ba7e779737cfaafd1.bindPopup(popup_6e26aff3b3bb4345aa3ec28c40486e06)
+            ;
+
+            
+        
+    
+        var marker_cdddaf2d54684d1f818a490eaecf4e11 = L.marker(
+            [30.234516999999997, -97.76247099999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_2df603d469b64cb7ac7cf2052565114e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5b08bac7b27e4019b4d7d7387aa76d05 = $(`<div id="html_5b08bac7b27e4019b4d7d7387aa76d05" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/9/18 Problem Description: Diabetic Pri 3</div>`)[0];
+                popup_2df603d469b64cb7ac7cf2052565114e.setContent(html_5b08bac7b27e4019b4d7d7387aa76d05);
+            
+
+            marker_cdddaf2d54684d1f818a490eaecf4e11.bindPopup(popup_2df603d469b64cb7ac7cf2052565114e)
+            ;
+
+            
+        
+    
+        var marker_2e84b0e74c35459982def6815dc29017 = L.marker(
+            [30.269963, -97.74593399999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_64cad248ce08416899f092baa9eb40be = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_76e8adcab9a3405cb3bbd629c1c52fa0 = $(`<div id="html_76e8adcab9a3405cb3bbd629c1c52fa0" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/12/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_64cad248ce08416899f092baa9eb40be.setContent(html_76e8adcab9a3405cb3bbd629c1c52fa0);
+            
+
+            marker_2e84b0e74c35459982def6815dc29017.bindPopup(popup_64cad248ce08416899f092baa9eb40be)
+            ;
+
+            
+        
+    
+        var marker_9aad7cfe60d94f35b7d6582ee1a6862e = L.marker(
+            [30.268007, -97.738949],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_ec06709ad3804bed97f5318ac273710e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6a59df80cc1b47bfad79c9f34df07232 = $(`<div id="html_6a59df80cc1b47bfad79c9f34df07232" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/18/18 Problem Description: Sick Pri 3</div>`)[0];
+                popup_ec06709ad3804bed97f5318ac273710e.setContent(html_6a59df80cc1b47bfad79c9f34df07232);
+            
+
+            marker_9aad7cfe60d94f35b7d6582ee1a6862e.bindPopup(popup_ec06709ad3804bed97f5318ac273710e)
+            ;
+
+            
+        
+    
+        var marker_3649db1d957a44bf847d2e531bf53d3e = L.marker(
+            [30.28503, -97.733761],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_a32f49c0c7e34eacb2920245aa70f303 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_15e3bab448ed4e8f80a60586e9e83aa2 = $(`<div id="html_15e3bab448ed4e8f80a60586e9e83aa2" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/26/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_a32f49c0c7e34eacb2920245aa70f303.setContent(html_15e3bab448ed4e8f80a60586e9e83aa2);
+            
+
+            marker_3649db1d957a44bf847d2e531bf53d3e.bindPopup(popup_a32f49c0c7e34eacb2920245aa70f303)
+            ;
+
+            
+        
+    
+        var marker_da102fe8fa6240309bfa97807fc23b26 = L.marker(
+            [30.229683, -97.762406],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_10e6c63cf6734de6af79a15c5ddcd675 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8f972c85b43044d0983a4da6b9dbd4bf = $(`<div id="html_8f972c85b43044d0983a4da6b9dbd4bf" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/6/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_10e6c63cf6734de6af79a15c5ddcd675.setContent(html_8f972c85b43044d0983a4da6b9dbd4bf);
+            
+
+            marker_da102fe8fa6240309bfa97807fc23b26.bindPopup(popup_10e6c63cf6734de6af79a15c5ddcd675)
+            ;
+
+            
+        
+    
+        var marker_1d927c94d94a4ce1aa69ee0414f4ab92 = L.marker(
+            [30.123002000000003, -97.808291],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_4e43d5dfeb6a4e23b83f72cc677e11e7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_19b19af9e760455c85e387af8cbf0e4b = $(`<div id="html_19b19af9e760455c85e387af8cbf0e4b" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/7/18 Problem Description: Stroke Pri 2</div>`)[0];
+                popup_4e43d5dfeb6a4e23b83f72cc677e11e7.setContent(html_19b19af9e760455c85e387af8cbf0e4b);
+            
+
+            marker_1d927c94d94a4ce1aa69ee0414f4ab92.bindPopup(popup_4e43d5dfeb6a4e23b83f72cc677e11e7)
+            ;
+
+            
+        
+    
+        var marker_9340a529c27f473982ddf0cb705bf7bc = L.marker(
+            [30.451266999999998, -97.782326],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_f02389db048d402b83ab05a0ee4e5f5e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_aaeb499232084f7687210efd7193ec32 = $(`<div id="html_aaeb499232084f7687210efd7193ec32" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/15/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_f02389db048d402b83ab05a0ee4e5f5e.setContent(html_aaeb499232084f7687210efd7193ec32);
+            
+
+            marker_9340a529c27f473982ddf0cb705bf7bc.bindPopup(popup_f02389db048d402b83ab05a0ee4e5f5e)
+            ;
+
+            
+        
+    
+        var marker_39ee4799c92d4c34b15c992f45cc2f2c = L.marker(
+            [30.305196999999996, -97.743049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_fb8c313f3d2941a2a475a4067b723913 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f6a5af707d04d7d95d8ff22151e8ffa = $(`<div id="html_2f6a5af707d04d7d95d8ff22151e8ffa" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/17/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_fb8c313f3d2941a2a475a4067b723913.setContent(html_2f6a5af707d04d7d95d8ff22151e8ffa);
+            
+
+            marker_39ee4799c92d4c34b15c992f45cc2f2c.bindPopup(popup_fb8c313f3d2941a2a475a4067b723913)
+            ;
+
+            
+        
+    
+        var marker_71174438465f4c1a97f3aee53dbec954 = L.marker(
+            [30.270871999999997, -97.745593],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_4934e9314f824308b5c6f5774d94a3c8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8d7024f595cf411796a4a0f2a9fd8cd7 = $(`<div id="html_8d7024f595cf411796a4a0f2a9fd8cd7" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/24/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_4934e9314f824308b5c6f5774d94a3c8.setContent(html_8d7024f595cf411796a4a0f2a9fd8cd7);
+            
+
+            marker_71174438465f4c1a97f3aee53dbec954.bindPopup(popup_4934e9314f824308b5c6f5774d94a3c8)
+            ;
+
+            
+        
+    
+        var marker_5295cf5dec2247f897be7a0af2a3e9b4 = L.marker(
+            [30.227348, -97.74049699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_511ff8c104794df2b44be40f4383220b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c007381252244fc59657bdec7903c0a7 = $(`<div id="html_c007381252244fc59657bdec7903c0a7" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/27/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_511ff8c104794df2b44be40f4383220b.setContent(html_c007381252244fc59657bdec7903c0a7);
+            
+
+            marker_5295cf5dec2247f897be7a0af2a3e9b4.bindPopup(popup_511ff8c104794df2b44be40f4383220b)
+            ;
+
+            
+        
+    
+        var marker_5f5dbe00af6e4f50baec233e74da9621 = L.marker(
+            [30.228721000000004, -97.829084],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_8ec8481c4583467b89cf95a74d3e2fe4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ef15ac98786846e5918e8202697c4ce0 = $(`<div id="html_ef15ac98786846e5918e8202697c4ce0" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/5/18 Problem Description: Traffic Injury Pri 4F</div>`)[0];
+                popup_8ec8481c4583467b89cf95a74d3e2fe4.setContent(html_ef15ac98786846e5918e8202697c4ce0);
+            
+
+            marker_5f5dbe00af6e4f50baec233e74da9621.bindPopup(popup_8ec8481c4583467b89cf95a74d3e2fe4)
+            ;
+
+            
+        
+    
+        var marker_38d15bf3adc740548c95cdc7289a5492 = L.marker(
+            [30.165088, -97.77266],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_2d55cee32e4b4c53a69837628979b022 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_11a16e131cc74b68b56502518d53ec56 = $(`<div id="html_11a16e131cc74b68b56502518d53ec56" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/9/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_2d55cee32e4b4c53a69837628979b022.setContent(html_11a16e131cc74b68b56502518d53ec56);
+            
+
+            marker_38d15bf3adc740548c95cdc7289a5492.bindPopup(popup_2d55cee32e4b4c53a69837628979b022)
+            ;
+
+            
+        
+    
+        var marker_9e638282a3584865af85eaa6b63ac7b7 = L.marker(
+            [30.268678, -97.748779],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_a01b8dc8284243fd8f6954ba22a30ae8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_07b78d7336374d0e8fd4803fc55ddead = $(`<div id="html_07b78d7336374d0e8fd4803fc55ddead" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/15/18 Problem Description: Injury Pri 3</div>`)[0];
+                popup_a01b8dc8284243fd8f6954ba22a30ae8.setContent(html_07b78d7336374d0e8fd4803fc55ddead);
+            
+
+            marker_9e638282a3584865af85eaa6b63ac7b7.bindPopup(popup_a01b8dc8284243fd8f6954ba22a30ae8)
+            ;
+
+            
+        
+    
+        var marker_099eeb19cc7a481eabefed9982577f6e = L.marker(
+            [30.25126, -97.740866],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_5e7cfd59d94548e79cfb21854eaa46a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e34140e0cb994554820eea388da3a8a8 = $(`<div id="html_e34140e0cb994554820eea388da3a8a8" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/16/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_5e7cfd59d94548e79cfb21854eaa46a2.setContent(html_e34140e0cb994554820eea388da3a8a8);
+            
+
+            marker_099eeb19cc7a481eabefed9982577f6e.bindPopup(popup_5e7cfd59d94548e79cfb21854eaa46a2)
+            ;
+
+            
+        
+    
+        var marker_7fdda8a196534c12bd0a25f7442635a3 = L.marker(
+            [30.268927, -97.738607],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_79f470dd932c4672adda7f64d4f52f4d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5610c1fb9032400dbd1f1f1eea00a501 = $(`<div id="html_5610c1fb9032400dbd1f1f1eea00a501" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/16/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_79f470dd932c4672adda7f64d4f52f4d.setContent(html_5610c1fb9032400dbd1f1f1eea00a501);
+            
+
+            marker_7fdda8a196534c12bd0a25f7442635a3.bindPopup(popup_79f470dd932c4672adda7f64d4f52f4d)
+            ;
+
+            
+        
+    
+        var marker_ab1f568eeeae426d9608bf9a7a945068 = L.marker(
+            [30.281834000000003, -97.73530799999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_515813fde408402aa9e0c365c6bf3ab3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3ea06e02a937422dadf97b072b800399 = $(`<div id="html_3ea06e02a937422dadf97b072b800399" style="width: 100.0%; height: 100.0%;">Date of Incident: 9/19/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_515813fde408402aa9e0c365c6bf3ab3.setContent(html_3ea06e02a937422dadf97b072b800399);
+            
+
+            marker_ab1f568eeeae426d9608bf9a7a945068.bindPopup(popup_515813fde408402aa9e0c365c6bf3ab3)
+            ;
+
+            
+        
+    
+        var marker_f7f9c21e38ef408397fbdfd3f7824be2 = L.marker(
+            [30.292713, -97.742687],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_38547c34b3aa4d798bfeaf080fbf84ff = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6bccb1ea4a7c409da7c60d9957e04b85 = $(`<div id="html_6bccb1ea4a7c409da7c60d9957e04b85" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/3/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_38547c34b3aa4d798bfeaf080fbf84ff.setContent(html_6bccb1ea4a7c409da7c60d9957e04b85);
+            
+
+            marker_f7f9c21e38ef408397fbdfd3f7824be2.bindPopup(popup_38547c34b3aa4d798bfeaf080fbf84ff)
+            ;
+
+            
+        
+    
+        var marker_5d05dd8ef56e41e99a0639aab624abc1 = L.marker(
+            [30.257144, -97.746875],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_fed05f48f508418ab6a16eec0e3c92ce = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_11fc202040d543da97886c8731e98705 = $(`<div id="html_11fc202040d543da97886c8731e98705" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/4/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_fed05f48f508418ab6a16eec0e3c92ce.setContent(html_11fc202040d543da97886c8731e98705);
+            
+
+            marker_5d05dd8ef56e41e99a0639aab624abc1.bindPopup(popup_fed05f48f508418ab6a16eec0e3c92ce)
+            ;
+
+            
+        
+    
+        var marker_94e7c0cc14fc41d38cc2d00f1483e3a9 = L.marker(
+            [30.267725, -97.734299],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_cdd4548310494708be0b951437e533ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2e24a32255994de998d733230482a863 = $(`<div id="html_2e24a32255994de998d733230482a863" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/5/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_cdd4548310494708be0b951437e533ba.setContent(html_2e24a32255994de998d733230482a863);
+            
+
+            marker_94e7c0cc14fc41d38cc2d00f1483e3a9.bindPopup(popup_cdd4548310494708be0b951437e533ba)
+            ;
+
+            
+        
+    
+        var marker_8f00852979b24da097ce8466da0e34c6 = L.marker(
+            [30.232409999999998, -97.765734],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_5b1069a4cf8d44b4aa712cbbd045076d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9e92651241f04ae48ebb21c246c100a3 = $(`<div id="html_9e92651241f04ae48ebb21c246c100a3" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/7/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_5b1069a4cf8d44b4aa712cbbd045076d.setContent(html_9e92651241f04ae48ebb21c246c100a3);
+            
+
+            marker_8f00852979b24da097ce8466da0e34c6.bindPopup(popup_5b1069a4cf8d44b4aa712cbbd045076d)
+            ;
+
+            
+        
+    
+        var marker_51a2bd2a348f4c5186ac7aef16c1caf5 = L.marker(
+            [30.2677, -97.73791800000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_b78f497f439c4227addb2bea19029b82 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_76fe121da99a434a9a392a1cfed98f55 = $(`<div id="html_76fe121da99a434a9a392a1cfed98f55" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/11/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_b78f497f439c4227addb2bea19029b82.setContent(html_76fe121da99a434a9a392a1cfed98f55);
+            
+
+            marker_51a2bd2a348f4c5186ac7aef16c1caf5.bindPopup(popup_b78f497f439c4227addb2bea19029b82)
+            ;
+
+            
+        
+    
+        var marker_92d0286f73794b3c9430d6e2901a5b31 = L.marker(
+            [30.2677, -97.73791800000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_03c5f9dd65a747328d850d64b092abe9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8bfb10a14de949d5b745728e69fe8187 = $(`<div id="html_8bfb10a14de949d5b745728e69fe8187" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/11/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_03c5f9dd65a747328d850d64b092abe9.setContent(html_8bfb10a14de949d5b745728e69fe8187);
+            
+
+            marker_92d0286f73794b3c9430d6e2901a5b31.bindPopup(popup_03c5f9dd65a747328d850d64b092abe9)
+            ;
+
+            
+        
+    
+        var marker_5ed3972a621241418ce98d4edd79c30d = L.marker(
+            [30.281747999999997, -97.741929],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_5f0c42582f844d2295d92c513f28353f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_57de2bc44ec741a58c53bb9c72f5a4d8 = $(`<div id="html_57de2bc44ec741a58c53bb9c72f5a4d8" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/12/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_5f0c42582f844d2295d92c513f28353f.setContent(html_57de2bc44ec741a58c53bb9c72f5a4d8);
+            
+
+            marker_5ed3972a621241418ce98d4edd79c30d.bindPopup(popup_5f0c42582f844d2295d92c513f28353f)
+            ;
+
+            
+        
+    
+        var marker_f09b98a01ab24b7ba63096118be0666e = L.marker(
+            [30.266965000000003, -97.74260699999999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_e68447e4ea414b1da636001a776c2bd8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_46ff7b172f5a424388006e308d7ad048 = $(`<div id="html_46ff7b172f5a424388006e308d7ad048" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/21/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_e68447e4ea414b1da636001a776c2bd8.setContent(html_46ff7b172f5a424388006e308d7ad048);
+            
+
+            marker_f09b98a01ab24b7ba63096118be0666e.bindPopup(popup_e68447e4ea414b1da636001a776c2bd8)
+            ;
+
+            
+        
+    
+        var marker_196bb7db9d5b4640bfe9481f9f27fb3c = L.marker(
+            [30.268639, -97.737563],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_262c9cbfea7a47319d23e139e8fb2c8a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_efa07b692bfb4e9096883ddb1576deb2 = $(`<div id="html_efa07b692bfb4e9096883ddb1576deb2" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/24/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_262c9cbfea7a47319d23e139e8fb2c8a.setContent(html_efa07b692bfb4e9096883ddb1576deb2);
+            
+
+            marker_196bb7db9d5b4640bfe9481f9f27fb3c.bindPopup(popup_262c9cbfea7a47319d23e139e8fb2c8a)
+            ;
+
+            
+        
+    
+        var marker_e0db0c0be765414596641f4b7c075fba = L.marker(
+            [30.296035999999997, -97.741129],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_bf0c1e013343435e8b024a8c13d4058b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3d6710e2829d408c8043a51590a732aa = $(`<div id="html_3d6710e2829d408c8043a51590a732aa" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/27/18 Problem Description: Psychiatric Pri 4</div>`)[0];
+                popup_bf0c1e013343435e8b024a8c13d4058b.setContent(html_3d6710e2829d408c8043a51590a732aa);
+            
+
+            marker_e0db0c0be765414596641f4b7c075fba.bindPopup(popup_bf0c1e013343435e8b024a8c13d4058b)
+            ;
+
+            
+        
+    
+        var marker_7a1be5cfaeb84ce7a163d4598c3873c2 = L.marker(
+            [30.339942999999998, -97.718985],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_a68d98fc76e14ae1aea50e35569b1cde = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_962a1470ce774536ae58a9d93ed74c3b = $(`<div id="html_962a1470ce774536ae58a9d93ed74c3b" style="width: 100.0%; height: 100.0%;">Date of Incident: 10/30/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_a68d98fc76e14ae1aea50e35569b1cde.setContent(html_962a1470ce774536ae58a9d93ed74c3b);
+            
+
+            marker_7a1be5cfaeb84ce7a163d4598c3873c2.bindPopup(popup_a68d98fc76e14ae1aea50e35569b1cde)
+            ;
+
+            
+        
+    
+        var marker_1eed75e35de645c6ace19c0ec51d927c = L.marker(
+            [30.242424, -97.7173],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_41a3a45938054a5986bd14d8e412bed2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ad542c6ab4de45d986f535500ef0e17a = $(`<div id="html_ad542c6ab4de45d986f535500ef0e17a" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/1/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_41a3a45938054a5986bd14d8e412bed2.setContent(html_ad542c6ab4de45d986f535500ef0e17a);
+            
+
+            marker_1eed75e35de645c6ace19c0ec51d927c.bindPopup(popup_41a3a45938054a5986bd14d8e412bed2)
+            ;
+
+            
+        
+    
+        var marker_2782ad95e4fe401da0eeeb9e02135b0c = L.marker(
+            [30.287936, -97.744682],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_f1d8729a0a3b44139b8f4caab75d4fb5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bb8b6c570a45428cad1b7e88975e8130 = $(`<div id="html_bb8b6c570a45428cad1b7e88975e8130" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/3/18 Problem Description: Traffic Injury Pri 2</div>`)[0];
+                popup_f1d8729a0a3b44139b8f4caab75d4fb5.setContent(html_bb8b6c570a45428cad1b7e88975e8130);
+            
+
+            marker_2782ad95e4fe401da0eeeb9e02135b0c.bindPopup(popup_f1d8729a0a3b44139b8f4caab75d4fb5)
+            ;
+
+            
+        
+    
+        var marker_1b63041a5cf443fc8a4784646db5ec34 = L.marker(
+            [30.2677, -97.73791800000001],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_f6e01fd84cb04327bb88f4de1db9e608 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8957ddc33abd423988678fc097db1276 = $(`<div id="html_8957ddc33abd423988678fc097db1276" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/9/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_f6e01fd84cb04327bb88f4de1db9e608.setContent(html_8957ddc33abd423988678fc097db1276);
+            
+
+            marker_1b63041a5cf443fc8a4784646db5ec34.bindPopup(popup_f6e01fd84cb04327bb88f4de1db9e608)
+            ;
+
+            
+        
+    
+        var marker_9a6083285c2048f58fba039642507264 = L.marker(
+            [30.266926, -97.742464],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_b126b883e18f4b6084a4820baeb14ab0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f00e7094e96a405fa4d87a49e4a0e4c5 = $(`<div id="html_f00e7094e96a405fa4d87a49e4a0e4c5" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/18/18 Problem Description: Fall Pri 3</div>`)[0];
+                popup_b126b883e18f4b6084a4820baeb14ab0.setContent(html_f00e7094e96a405fa4d87a49e4a0e4c5);
+            
+
+            marker_9a6083285c2048f58fba039642507264.bindPopup(popup_b126b883e18f4b6084a4820baeb14ab0)
+            ;
+
+            
+        
+    
+        var marker_478421726f7b4b1381cf08a348932dc7 = L.marker(
+            [30.244843, -97.728032],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_f7d403a4ab904a4ca8d6cc5ede770d29 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_726db5cd31bf4b6da83101a463f5e729 = $(`<div id="html_726db5cd31bf4b6da83101a463f5e729" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/19/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_f7d403a4ab904a4ca8d6cc5ede770d29.setContent(html_726db5cd31bf4b6da83101a463f5e729);
+            
+
+            marker_478421726f7b4b1381cf08a348932dc7.bindPopup(popup_f7d403a4ab904a4ca8d6cc5ede770d29)
+            ;
+
+            
+        
+    
+        var marker_18a709eeca7b4c17b41187fa7a6c28e4 = L.marker(
+            [30.257144, -97.746875],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_64e7cce9645442b694609113768ae10c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_62d9803c0474485abcff3a49e2bb6d2c = $(`<div id="html_62d9803c0474485abcff3a49e2bb6d2c" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/25/18 Problem Description: Fall Pri 4</div>`)[0];
+                popup_64e7cce9645442b694609113768ae10c.setContent(html_62d9803c0474485abcff3a49e2bb6d2c);
+            
+
+            marker_18a709eeca7b4c17b41187fa7a6c28e4.bindPopup(popup_64e7cce9645442b694609113768ae10c)
+            ;
+
+            
+        
+    
+        var marker_ef1844be65254fd48bafc9a8c57a534a = L.marker(
+            [30.227462, -97.727776],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_55cbbff9a57a46b4afbc89df3422ecfe);
+        
+    
+            var popup_14e808b20c7f4aa18dc63764e99a7e57 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_518f2331bab64447bdf0eb667f2b93e8 = $(`<div id="html_518f2331bab64447bdf0eb667f2b93e8" style="width: 100.0%; height: 100.0%;">Date of Incident: 11/29/18 Problem Description: Injury Pri 4</div>`)[0];
+                popup_14e808b20c7f4aa18dc63764e99a7e57.setContent(html_518f2331bab64447bdf0eb667f2b93e8);
+            
+
+            marker_ef1844be65254fd48bafc9a8c57a534a.bindPopup(popup_14e808b20c7f4aa18dc63764e99a7e57)
+            ;
+
+            
+        
+</script>
